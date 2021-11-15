@@ -14,7 +14,7 @@ import visualkeras
 import pickle
 import cv2
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 #os.environ["TF_GPU_ALLOCATOR"] = "cuda_malloc_async"
 
 (trainImages, testImages), (trainLabels, testLabels), (trainBboxes, testBboxes), (trainPaths, testPaths) = get_data()
